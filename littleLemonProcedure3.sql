@@ -1,4 +1,4 @@
-USE little_lemon_db;
+USE littlelemon;
 
 DELIMITER //
 CREATE PROCEDURE CancelOrder(IN id INT)

@@ -1,4 +1,4 @@
-USE little_lemon_db;
+USE littlelemon;
 
 PREPARE GetOrderDetail FROM 
 'SELECT OrderID, Quantity, TotalCost FROM orders 

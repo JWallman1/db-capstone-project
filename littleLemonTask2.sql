@@ -1,4 +1,4 @@
-USE little_lemon_db;
+USE littlelemon;
 
 SELECT customers.CustomerID, customers.FullName, orders.OrderID, orders.TotalCost as Cost, menus.MenuName, menuitems.Courses as CourseName
 FROM customers JOIN orders ON customers.CustomerID = orders.CustomerID

@@ -1,4 +1,4 @@
-USE little_lemon_db;
+USE littlelemon;
 
 CREATE VIEW `OrdersView` AS
 SELECT OrderID, Quantity, TotalCost
